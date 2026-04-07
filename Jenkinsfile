@@ -25,6 +25,7 @@ pipeline{
         stage('Smoke test'){
             steps{
                 echo 'smoke test'
+                echo 'hello from vscode'
             }
         }
     }
