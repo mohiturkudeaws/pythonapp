@@ -22,5 +22,10 @@ pipeline{
                 echo 'Deploy code'
             }
         }
+        stage{
+            steps{
+                echo 'smoke test'
+            }
+        }
     }
 }
